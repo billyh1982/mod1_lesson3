@@ -1,0 +1,10 @@
+import random
+
+first_names=["christian","dylan","travis","katelyn"]
+last_names=["saches","katina","peck","mehner"]
+
+
+
+f_names=random.choices(first_names)
+l_names=random.choices(last_names)
+print(f'{f_names} {l_names}')
